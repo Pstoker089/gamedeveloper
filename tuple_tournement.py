@@ -1,42 +1,15 @@
+list=[]
 
-    
-groupname=input("enter the name of the group: ")
-groupsize=input("Enter how many people were in the group: ")
-date=input("Enter the date of the competition: ")
-place=input("Enter where the venue is: ")
-medaltype=input("Enter the type of medal they got:")
-tuple1=(groupname,groupsize,date,place,medaltype)
+for i in range(5):
+    groupname=input("enter the name of the group: ")
+    groupsize=input("Enter how many people were in the group: ")
+    date=input("Enter the date of the competition: ")
+    place=input("Enter where the venue is: ")
+    medaltype=input("Enter the type of medal they got:")
+    tuple1=(groupname,groupsize,date,place,medaltype)
+    list.append(tuple1)
 
-groupname2=input("enter the name of the group: ")
-groupsize2=input("Enter how many people were in the group: ")
-date2=input("Enter the date of the competition: ")
-place2=input("Enter where the venue is: ")
-medaltype2=input("Enter the type of medal they got:")
-tuple2=(groupname2,groupsize2,date2,place2,medaltype2)
 
-groupname3=input("enter the name of the group: ")
-groupsize3=input("Enter how many people were in the group: ")
-date3=input("Enter the date of the competition: ")
-place3=input("Enter where the venue is: ")
-medaltype3=input("Enter the type of medal they got:")
-tuple3=(groupname3,groupsize3,date3,place3,medaltype3)
+for i in list:
+    print(i)
 
-groupname4=input("enter the name of the group: ")
-groupsize4=input("Enter how many people were in the group: ")
-date4=input("Enter the date of the competition: ")
-place4=input("Enter where the venue is: ")
-medaltype4=input("Enter the type of medal they got:")
-tuple4=(groupname4,groupsize4,date4,place4,medaltype4)
-
-groupname5=input("enter the name of the group: ")
-groupsize5=input("Enter how many people were in the group: ")
-date5=input("Enter the date of the competition: ")
-place5=input("Enter where the venue is: ")
-medaltype5=input("Enter the type of medal they got:")
-tuple5=(groupname5,groupsize5,date5,place5,medaltype5)
-
-print(tuple1)
-print(tuple2)
-print(tuple3)
-print(tuple4)
-print(tuple5)
